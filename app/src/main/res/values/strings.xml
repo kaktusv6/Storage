@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Storage</string>
+    <string name="path_url">Path url:</string>
+    <string name="base_url">Base url:</string>
+    <string name="save">Save</string>
+    <string name="upload">Разгрузка</string>
+    <string name="load">Загрузка</string>
+    <string name="item_text">Товар</string>
+    <string name="close_popup">X</string>
+    <string name="length_item">Количество товара</string>
+    <string name="load_item">Загрузка на склад</string>
+    <string name="upload_item">Выгрузка со склада</string>
+    <string name="add_in_dock">Добавить\nв документ</string>
+    <string name="locate_to_map">Проложить\nмаршрут</string>
+</resources>
