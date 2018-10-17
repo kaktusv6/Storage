@@ -4,21 +4,15 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import com.storage.kaktusv6.storage.adapter.AdapterItems;
@@ -61,14 +55,14 @@ public class MainActivity extends AppCompatActivity {
         searchView = (SearchView) findViewById(R.id.search);
         listView = (ListView) findViewById(R.id.listView);
 
-        items.add(new Item("Cat", 123));
-        items.add(new Item("Cats", 1234));
-        items.add(new Item("City", 1235));
-        items.add(new Item("Word", 1236));
-        items.add(new Item("Home", 1237));
-        items.add(new Item("Computer", 1238));
-        items.add(new Item("Music", 1239));
-        items.add(new Item("Rock", 1230));
+        items.add(new Item("Товар 1", 123));
+        items.add(new Item("Товар 1", 1234));
+        items.add(new Item("Товар 1", 1235));
+        items.add(new Item("Товар 1", 1236));
+        items.add(new Item("Товар 1", 1237));
+        items.add(new Item("Товар 1", 1238));
+        items.add(new Item("Товар 1", 1239));
+        items.add(new Item("Товар 1", 1230));
 
         adapter = new AdapterItems(this, items);
         listView.setAdapter(adapter);

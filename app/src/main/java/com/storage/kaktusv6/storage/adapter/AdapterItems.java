@@ -69,7 +69,7 @@ public class AdapterItems extends BaseAdapter implements Filterable {
         // заполняем View в пункте списка данными из товаров: наименование, цена
         // и картинка
         ((TextView) view.findViewById(R.id.titleItem)).setText(p.getName());
-//        ((TextView) view.findViewById(R.id.descItem)).setText(p.getCode());
+        ((TextView) view.findViewById(R.id.descItem)).setText(Integer.toString(p.getCode()));
 
         return view;
     }

@@ -1,6 +1,5 @@
 package com.storage.kaktusv6.storage.filters;
 
-import android.util.Log;
 import android.widget.Filter;
 
 import com.storage.kaktusv6.storage.adapter.AdapterItems;
